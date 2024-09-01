@@ -87,7 +87,7 @@ mes_multi_selected = st.sidebar.multiselect('Elementos de la Matriz de Correlaci
 #------------------------------------------------------------------
 
 #----- Lectura de los Datos Desde el Archivo CSV ------------------
-datos_df = pd.read_csv('./Datos/Datos_DF.csv')
+datos_df = pd.read_csv('./Datos/Datos.csv')
 
 #----- Renderizado del Texto --------------------------------------
 st.markdown(":violet[**DATAFRAME PARA EL MANEJO DE INFORMACIÓN DE CLIENTES**]")
