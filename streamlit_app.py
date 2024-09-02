@@ -101,7 +101,7 @@ st.markdown(":violet[El **DataFrame** es el siguiente:]")
 
 #----- Renderizado del DataFrame ----------------------------------
 st.dataframe(datos_df)
-st.markdown(default_pers[0])
+st.markdown(vars_per[0])
 st.divider()
 
 
