@@ -175,6 +175,9 @@ st.divider()
 #Título para el gráfico
 st.subheader('Matriz de Correlación')
 
+datos_ganancias = pd.read_csv('./Datos/Ganancias_id.csv')
+st.dataframe(datos_ganancias)
+
 #Inicialización del gráfico
 fig3, ax3 = plt.subplots()
 
