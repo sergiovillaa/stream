@@ -175,7 +175,9 @@ st.divider()
 #Título para el gráfico
 st.subheader('Matriz de Correlación')
 
+#--------  TABLA GANANCIAS------------------------------------
 datos_ganancias = pd.read_csv('./Datos/Ganancias_id.csv')
+
 st.dataframe(datos_ganancias)
 st.divider()
 
